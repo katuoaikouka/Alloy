@@ -1,0 +1,16 @@
+{
+  "name": "alloy-proxy-v3",
+  "version": "3.0.0",
+  "description": "Minimal AlloyProxy implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^2.6.7",
+    "sanitizer": "^0.1.3"
+  }
+}
